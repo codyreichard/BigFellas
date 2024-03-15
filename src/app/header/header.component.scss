@@ -1,0 +1,23 @@
+header {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.nav{
+  display:flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+span {
+  text-align: center;
+}
+
+li {
+  margin-right: 20px;
+  margin-left: 20px;
+  list-style: none;
+}

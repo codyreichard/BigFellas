@@ -1,0 +1,10 @@
+<p>managers works!</p>
+
+<h1>Meet the Boys</h1>
+
+<div *ngIf="managers">
+  <div *ngFor="let manager of managers">
+    <!-- <img src={{manager.metadata.avatar}} > -->
+    <a [routerLink]="['/manager', manager.user_id]"> {{manager.display_name}} -- {{manager.user_id}}</a>
+  </div>
+</div>
